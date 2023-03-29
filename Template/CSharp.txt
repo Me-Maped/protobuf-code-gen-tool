@@ -1,0 +1,12 @@
+// 该文件自动生成，请勿手动修改!!!
+// 生成时间: {{.GenerateTime}}	
+// - by Maped
+
+namespace {{.CSharpPbNs}}
+{
+	//协议号定义
+	public enum {{.FileName}}
+	{	{{ range .Infos}}
+		{{.ProtocolName}} = {{.ProtocolID}},{{ end }}
+	}
+}
